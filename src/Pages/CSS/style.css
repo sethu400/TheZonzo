@@ -1,0 +1,307 @@
+@media (min-width: 1000px) {
+.rform {
+  background-color: violet;
+  min-height: 100vh;
+}
+.rcorners2 {
+  border-radius: 30px;
+  border: 2px solid violet;
+  padding: 20px;
+  width: 450px;
+  height: 550px;
+  position: absolute; 
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: whitesmoke;
+}
+.rcorners1 {
+  border-radius: 30px;
+  border: 2px solid violet;
+  padding: 5px;
+  width: 500px;
+  height: 720px;
+  position: absolute; 
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: transparent;
+}
+
+.st-input input{
+	 width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+.telinput{
+  height: 80%;
+	 width: 79%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+.select-ph {
+	width: 15%;
+  padding: 10px 7px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+.b1 {
+	width: 30%;
+	padding: 10px 7px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
+  background-color: mediumpurple;
+  color: white;
+}
+.clip {
+        position: absolute;
+        top: 0em;
+        left: 43%;
+    }
+
+.navcont {
+  padding: 1px;
+  width: 100%;
+  height: 100px;
+  background-color: transparent;
+  position: relative;
+  top: 0;
+}
+.navcont img {
+ height:90px;
+ width:100px;
+ position:absolute;
+ left:2%;
+ top:10%;
+}
+.navcont2 {
+  width: 45%;
+  height: 40%;
+  position: absolute;
+  right: 5%;
+  top: 30%;
+  padding: 1px;
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navcont2 a {
+  font-size: 15px;
+  float: left;
+  text-decoration: none;
+}
+.navcont2 .button {
+ display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  background-color: #EF4979;
+  color: white;
+  width: 123px;
+  height: 45px;
+}
+.contact-cont {
+  padding: 5px;
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  height: 60%;
+  width: 30%;
+  
+}
+.textarea {
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  resize: both;
+  min-height: 20%;
+  line-height: 20px;
+}
+.h-backcont{
+  position: absolute;
+  height: 100%;
+  width: 60%;
+  right: 0px;
+  top: 0;
+ background-position: top right;
+ background-size: 100% 100%;
+}
+.h2-backcont{
+  position: absolute;
+  height: 100vh;
+  width: 58vw;
+  right: 0px;
+  top: 0;
+  background-position: top right;
+background-size: 100% 100%;
+}
+.ic-cont{
+  position: absolute;
+  height: 75%;
+  width: 65%;
+  left: 35%;
+  bottom: 10%;
+  color: white;
+  background-image: url("../images/home-icons.png");
+  background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+.conhead-cont{
+  position: absolute;
+  width: 25%;
+  height: 50%;
+  top: 35%;
+text-align: left;
+    font-size: 27px;
+  left: 3%;
+  
+}
+.conhead-cont h1{
+  font-size: 45px;
+}
+.conhead-cont p{
+  font-size: 25px;
+}
+.homebtn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  height: 18%;
+}
+.homebtn input{
+  background-color: whitesmoke;
+  width: 100%;
+
+}
+.homebtn a{
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  background-color: #6A34A1;
+  top: 20%;
+  right: 5px;
+  width: 40%;
+  height: 60%;
+  font-size: 18px;
+  border-radius: 15px;
+  color: white;
+
+}
+}
+
+@media (min-width: 320px) and (max-width: 999px) {
+  .rcorners2 {
+  border-radius: 10px;
+  border: 2px solid violet;
+  padding: 15px;
+  width: 100%;
+  height: 100%;
+  position: absolute; 
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: whitesmoke;
+}
+
+.st-input {
+   width: 100%;
+  padding: 12px 20px;
+  margin: 5px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 7px;
+  box-sizing: border-box;
+}
+.telinput{
+   width: 79%;
+  padding: 12px 20px;
+  margin: 5px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 7px;
+  box-sizing: border-box;
+}
+.select-ph {
+  width: 15%;
+  padding: 10px 7px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 7px;
+  box-sizing: border-box;
+}
+.b1 {
+  width: 30%;
+  padding: 10px 7px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 7px;
+  box-sizing: border-box;
+  background-color: mediumpurple;
+  color: white;
+}
+.clip{
+  position:relative;
+  top:0%;
+  visibility: hidden;
+}
+.navcont {
+  padding: 1px;
+  width: 100%;
+  height: 100px;
+  background-color: transparent;
+  position: relative;
+  top: 0;
+}
+.navcont img {
+ height:90px;
+ width:80px;
+ position:absolute;
+ left:2%;
+ top:10%;
+}
+.navcont2 {
+  width: 40%;
+  height: 40%;
+  position: absolute;
+  right: 7%;
+  top: 30%;
+  padding: 1px;
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navcont2 a {
+  float: left;
+  text-decoration: none;
+}
+.navcont2 button {
+  border-radius: 5px;
+  background-color: deeppink;
+  color: white;
+  width: 12%;
+  height: 75%;
+}
+  }
