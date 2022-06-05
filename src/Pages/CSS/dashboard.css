@@ -1,0 +1,64 @@
+.ramsay,.magnoila{
+    margin-top: 13px;
+}
+.noimg{
+    margin-left: 25px;
+}
+.phone , .tick , .world ,.eye {
+    margin-left: 15px;
+}
+.tick {
+    margin-top: -17vh;
+}
+.world{
+    margin-top: -30vh;
+}
+.eye{
+    margin-top: -42vh;
+}
+.fixed-left{
+    width: 60px;
+    height: 101vh;
+    position: relative;
+}
+.own{
+    margin-top: 10px;
+    cursor: pointer;
+}
+.menu{
+    margin-top: 3px;
+}
+.sold{
+    margin-right: 25px;
+}
+.align{
+    width: 20px;
+    border-left: 1px solid grey;
+}
+.update{
+    border: 1px solid #7039A9;
+    border-radius: 8px;
+    color: #7039A9;
+    width: 120px;
+    height: 30px;
+    padding-left: 16px;
+    padding-top: 5px;
+    cursor: pointer;
+}
+.cover{
+    background: #3DAD3B1F;
+    width: 75px;
+    height: 23px;
+    padding: 4px;
+    border-radius: 20px;
+}
+.cover1{
+    width: 83px;
+    height: 23px;
+    padding: 4px;
+    border-radius: 20px;
+}
+.cursor{
+    cursor: pointer;
+}
+
